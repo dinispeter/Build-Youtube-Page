@@ -6,9 +6,9 @@ document.querySelector('#bottom-menu').addEventListener('click', () => {
 
 const controlWindow = () => {
 	if(window.innerWidth <= 768){
-		contenedor.classList.remove('active');
+		basic.classList.remove('active');
 	} else {
-		contenedor.classList.add('active');
+		basic.classList.add('active');
 	}
 }
 
